@@ -2,7 +2,7 @@
 .globl main
 
 main:
-   li x22 0 #i=0
+   li x22,0 #i=0
    li x23, 0 #sum=0
    li x24, 0x200 #base address of array
    li x25, 10 #10 constant for comparing
