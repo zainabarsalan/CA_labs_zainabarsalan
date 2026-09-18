@@ -6,7 +6,7 @@ main:
 li x7,0#i
 li x5,5 #a=5
 li x6,5 #b=5
-
+li x10, 0x200
 loop1:
     
     bge x7,x5, exit #if i>=a go to exit end loop1
